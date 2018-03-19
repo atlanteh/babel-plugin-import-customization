@@ -1,6 +1,6 @@
 {
   "name": "babel-plugin-import-customization",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "",
   "main": "plugin that provide ability to customize imported file by file name suffix.",
   "scripts": {
@@ -8,6 +8,19 @@
     "test:watch": "jest --watchAll",
     "build": "babel test/code --out-dir test/lib --copy-files --watch"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uribro/babel-plugin-import-customization.git"
+  },
+  "keywords": [
+    "babel",
+    "plugin",
+    "imports",
+    "customization",
+    "react",
+    "native",
+    "white label"
+  ],
   "author": "Uribro (https://github.com/uribro)",
   "license": "MIT",
   "bugs": {
